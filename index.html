@@ -5,16 +5,217 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tinyone</title>
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    <!-- Bootstrap 4 -->
+    <!-- Bootstrap 4 styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animate css -->
     <link rel="stylesheet" href="./css/animate.css">
     <!-- Iconic fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Style css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS styles -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- ! HEADER -->
+    <header class="header">
+        <div class="container">
+            <h1 class="visually-hidden">Tinyone</h1>
+            <link href="mobile.css" rel="stylesheet" media="screen and (min-width: 980px)">
+            <!-- One cell with two blocks -->
+            <div class="row">
+                <!-- Logo block -->
+                <div class="col-lg-3">
+                    <img class="header__logo" src="img/logo.png" alt="Tinyone logo">
+                </div>
+                <!-- Navigation block -->
+                <div class="col-lg-5 ml-auto"> 
+                    <nav>
+                        <ul class="menu d-flex justify-content-center">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Features</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Support</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- !MAIN -->
+    <main class="main">
+        <!-- *USAGE -->
+        <section class="usage">
+            <div class="container">
+                <div class="row">
+                    <!-- Text block -->
+                    <div class="col-lg-6">
+                        <h2 class="usage__title">Inspire your inspiration</h2>
+                        <p class="usage__intro">Simple to use for your app, products showcase and your inspiration</p>
+                        <p class="usage__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit</p>
+                        <div class="usage__icons icons">
+                            <ul class="icons__list d-flex">
+                                <li class="icons__item">
+                                    <a href="#" class="fa fa-apple"></a>
+                                </li>
+                                <li class="icons__item">
+                                    <a href="#" class="fa fa-android"></a>
+                                </li>
+                                <li class="icons__item">
+                                    <a href="#" class="fa fa-windows"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Image block -->
+                    <div class="col-lg-5 ml-auto">
+                        <img class="usage__img animated fadeInDown" src="./img/ipad-new.png" alt="image of Ipad with tinyone logo on the screen">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- *FEATURES -->
+        <section class="features">
+            <div class="container">
+                <!-- Title + intro block -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title">
+                            <h2 class="features__title">Tinyone features</h2>
+                            <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Advantages block -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="feature d-flex">
+                            <i class="fa fa-tablet feature__icon"></i>
+                            <div class="feature__block">
+                                <h3 class="feature__title">
+                                    Fully Responsive
+                                </h3>
+                                <p class="feature__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature d-flex">
+                            <i class="fa fa-leaf feature__icon"></i>
+                            <div class="feature__block">
+                                <h3 class="feature__title">
+                                    Fully Layered PSD
+                                </h3>
+                                <p class="feature__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature d-flex">
+                            <i class="fa fa-folder feature__icon"></i>
+                            <div class="feature__block">
+                                <h3 class="feature__title">
+                                    Font Awesome Icons
+                                </h3>
+                                <p class="feature__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature d-flex">
+                            <i class="fa fa-magic feature__icon"></i>
+                            <div class="feature__block">
+                                <h3 class="feature__title">
+                                    HTML3 & CSS3 
+                                </h3>
+                                <p class="feature__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature d-flex">
+                            <i class="fa fa-envelope feature__icon"></i>
+                            <div class="feature__block">
+                                <h3 class="feature__title">
+                                    Email Template
+                                </h3>
+                                <p class="feature__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature d-flex">
+                            <i class="fa fa-cloud-download feature__icon"></i>
+                            <div class="feature__block">
+                                <h3 class="feature__title">
+                                    Free to download
+                                </h3>
+                                <p class="feature__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- *TOUCH -->
+        <section class="touch">
+            <div class="container">
+                <!-- Title + intro block -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="touch__title">Keep in touch with us</h2>
+                        <p class="touch__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-10 m-auto">
+                        <form action="#" class="form">
+                            <input type="email" placeholder="Enter your email to update" class="form__input" required>
+                            <button type="submit" class="form__btn">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- !FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contacts">
+                        <p>HALOVIETNAM LTD <br> 66, Dang Van ngu, Dong Da <br> Hanoi, Vietnam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
