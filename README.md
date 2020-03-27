@@ -1,2 +1,3 @@
 # tinyone
-Bootstrap 4 responsive website
+
+https://darya-d.github.io/tinyone/
